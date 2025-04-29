@@ -11,7 +11,7 @@ A | B
 
 ## 🔗 Links  
 - [🌐 사이트 바로가기](https://space-soundscape-simulator.streamlit.app/)  
-- [📘 작업 로그(노션)]()  
+- [📘 발표 자료(노션)](https://rough-lime-f80.notion.site/Python-Project-1de2d24c870d801a9e94c42f605442b6)  
 
 ---
 
