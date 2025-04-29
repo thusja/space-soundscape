@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 import time
 import json
+from streamlit.components.v1 import html
 
 # JSON 파일 불러오기
 base_path = os.path.dirname(os.path.dirname(__file__))
@@ -57,6 +58,7 @@ def reset_waveform_states():
 
 def main():
   st.set_page_config(page_title="우주의 소리 시뮬레이터", layout="wide")
+  st.markdown('<div id="top"></div>', unsafe_allow_html=True)
   st.title("🌌 우주의 소리 시뮬레이터")
 
   top_col1, top_col2 = st.columns([8, 1.5])
@@ -66,6 +68,7 @@ def main():
     if "auto_close_waveform" not in st.session_state:
       st.session_state.auto_close_waveform = True
     st.toggle("웨이브폼 자동 닫기", key="auto_close_waveform")
+  
 
   # 세션 상태 초기화
   if "show_simulation_waveform" not in st.session_state:
@@ -171,6 +174,40 @@ def main():
         plot_waveform(nasa_sound_path)
     else:
       st.warning(f"{selected_planet}의 NASA 소리가 준비되지 않았습니다.")
+
+  st.markdown(
+    """
+    <style>
+    #scroll-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 1000;
+    }
+    #scroll-to-top button {
+      background-color: #00c0ff;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #scroll-to-top button:hover {
+      background-color: #0099cc;
+    }
+    </style>
+    <div id="scroll-to-top">
+      <a href="#top">
+        <button>↑ Top</button>
+      </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+  )
 
 if __name__ == "__main__":
   main()
