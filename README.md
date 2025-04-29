@@ -1,9 +1,11 @@
 # 🌌 우주의 소리 시뮬레이터  
 > 태양계 행성을 선택하면 해당 천체의 환경을 기반으로 생성된 사운드를 감상하고, NASA가 수집한 실제 우주 소리도 들어볼 수 있는 웹 앱입니다.
 
-A | B | C  
---|--|--  
-![시뮬레이션1](url) | ![시뮬레이션2](url) | ![시뮬레이션3](url)  
+A | B  
+--|--  
+![시뮬레이션1](https://github.com/thusja/space-soundscape/blob/master/images/docs/sim01.PNG) | ![시뮬레이션2](https://github.com/thusja/space-soundscape/blob/master/images/docs/sim02.PNG)  
+![시뮬레이션3](https://github.com/thusja/space-soundscape/blob/master/images/docs/sim03.PNG) | ![시뮬레이션4](https://github.com/thusja/space-soundscape/blob/master/images/docs/sim04.PNG)
+
 
 <br>
 
@@ -79,6 +81,6 @@ space-soundscape/
 ---
 
 ## 🔗 참고자료
-- [NASA Sound Library](https://www.youtube.com/@vishalm1537)  NASA 공식홈페이지는 현재 지원하지 않음
+- [NASA Sound Library](https://www.youtube.com/@vishalm1537)  (NASA 공식홈페이지는 현재 지원하지 않아 youtube 대체)
 - [pydub Documentation](https://pydub.com/)  
 - [Streamlit Docs](https://docs.streamlit.io/)  
