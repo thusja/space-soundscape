@@ -1,0 +1,8 @@
+# Required Python packages
+
+pydub
+numpy
+streamlit
+pillow
+scipy
+matplotlib

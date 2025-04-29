@@ -1,0 +1,3 @@
+data 폴더 - 천체 정보, NASA 데이터 등 저장
+planets.json - 기본 행성 정보 (예: 자기장, 대기 등)
+planet_descriptions - 행성 설명

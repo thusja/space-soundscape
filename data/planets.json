@@ -1,0 +1,53 @@
+{
+  "Mercury": {
+    "atmosphere": "thin",
+    "magnetic_field": "weak",
+    "temperature": "very high"
+  },
+  "Venus": {
+    "atmosphere": "dense",
+    "magnetic_field": "none",
+    "temperature": "extremely high"
+  },
+  "Earth": {
+    "atmosphere": "rich",
+    "magnetic_field": "strong",
+    "temperature": "moderate"
+  },
+  "Mars": {
+    "atmosphere": "thin",
+    "magnetic_field": "weak",
+    "temperature": "cold"
+  },
+  "Jupiter": {
+    "atmosphere": "very dense",
+    "magnetic_field": "very strong",
+    "temperature": "cold"
+  },
+  "Saturn": {
+    "atmosphere": "dense",
+    "magnetic_field": "strong",
+    "temperature": "cold"
+  },
+  "Uranus": {
+  "atmosphere": "dense",
+  "magnetic_field": "moderate",
+  "temperature": "cold"
+  },
+  "Neptune": {
+    "atmosphere": "dense",
+    "magnetic_field": "strong",
+    "temperature": "very cold"
+  },
+  "Pluto": {
+    "atmosphere": "very thin",
+    "magnetic_field": "none",
+    "temperature": "extremely cold"
+  },
+  "Sun": {
+    "atmosphere": "very dense",
+    "magnetic_field": "very strong",
+    "temperature": "extremely high"
+  }
+
+}
