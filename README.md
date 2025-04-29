@@ -22,8 +22,8 @@ A | B | C
 지구 외 다른 행성들의 대기, 자기장, 온도 정보를 바탕으로 각기 다른 음향을 생성하고 NASA에서 수집한 실제 사운드와 비교해볼 수 있도록 구성했습니다.
 
 ### 🛠 기술 스택  
-- `Python`,   
-- `Streamlit`,`pydub`, `scipy`, `matplotlib`, `Pillow`, `json`  
+- `Python`  
+- Library : `Streamlit`,`pydub`, `scipy`, `matplotlib`, `Pillow`, `numpy`, `json`  
 - 배포: Streamlit Community Cloud
 
 ---
