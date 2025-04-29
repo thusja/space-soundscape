@@ -46,20 +46,20 @@ A | B | C
 - 하단: 사운드 플레이어 및 웨이브폼 출력  
 
 ### 📁 폴더 구조  
-space-soundscape/ 
-├── .streamlit/ 
-├── data/ 
+space-soundscape/
+├── .streamlit/
+├── data/
 │ ├── planets.json
 │ └── planet_descriptions.json
-├── images/ 
-├── nasa_sounds/ 
-├── sounds/ 
-├── src/ 
-│ ├── main.py 
+├── images/
+├── nasa_sounds/
+├── sounds/
+├── src/
+│ ├── main.py
 │ ├── ui.py
-│ ├── data_loader.py 
+│ ├── data_loader.py
 │ └── sound_engine.py
-├── requirements.txt 
+├── requirements.txt
 └── README.md
 
 ### 📜 주요 코드 파일  
